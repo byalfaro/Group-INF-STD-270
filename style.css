@@ -82,9 +82,12 @@ p {
 #tab5:checked ~ .tab-panels #panel5,
 #tab6:checked ~ .tab-panels #panel6,
 #tab7:checked ~ .tab-panels #panel7,
-#tab8:checked ~ .tab-panels #panel8 {
+#tab8:checked ~ .tab-panels #panel8,
+#tab9:checked ~ .tab-panels #panel9,
+#tab10:checked ~ .tab-panels #panel10 {
   display: block;
 }
+
 
 @keyframes fadeIn {
   from {opacity:0;}
