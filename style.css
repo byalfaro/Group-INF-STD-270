@@ -88,8 +88,32 @@ p {
   display: block;
 }
 
+a:link {
+  color:aqua;
+  background-color: transparent;
+}
+
+a:visited {
+  color:lightgreen;
+  background-color: transparent;
+}
+
+a:hover {
+  color: purple;
+  background-color:transparent;
+}
 
 @keyframes fadeIn {
   from {opacity:0;}
   to {opacity:1;}
+}
+
+.parent {
+  text-align: center; /* Centers the list block within the parent container */
+  color:lightpink;
+}
+
+ul {
+  display: inline-block; /* Allows the list to be centered as a block and shrink to fit content */
+  text-align: left; /* Overrides the parent's text-align, making list items flush left */
 }
